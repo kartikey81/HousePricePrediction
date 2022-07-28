@@ -36,4 +36,4 @@ def predict():
     return render_template('index.html', prediction_text='Regression Model  has predicted house price : {}'.format(prediction))
 
 
-app.run()
+app.run(debug=True)
